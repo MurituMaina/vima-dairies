@@ -30,7 +30,7 @@ The system is developed in;
 * [CSS](css.css)
 * [Javascript](javascript.js)
 ## Depencies
-The system's dependency is on a browser for access. 
+The system's dependency is on a browser for access.
 
 ## Setup & Installation 
 Install Browsers Chrome     , Internet Explorer IE 11 and Safari.
@@ -40,7 +40,7 @@ Install Browsers Chrome     , Internet Explorer IE 11 and Safari.
 ## Contact 
 Reach me via [Email](mailto:vincent.maina@student.moringa.com)
 Check other Projects on![assets/images/github..png][Github](https://github.com/MurituMaina)
-
+Check other Projects on![assets/images/github..png][Github](https://github.com/MurituMaina)
 
 ## Licence Information
 The System is distributed under the MIT Licence. for more information see [License](LICENSE.txt)
