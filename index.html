@@ -18,32 +18,63 @@
         <span id="logo">V<span id="letter1">I</span>M<span id="letter2">A</span>
         <span id="dairies">Dairies</span>
         </span>
-        <div class="homeMenu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-            </ul>
-        </div>
+
+        <ul id="homeMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </div>
     </div>
     <div class="firstsection">
         <h1>Welcome to VIMA Dairies !!!</h1>
         <p>Where your resources are a priority</p>
+        THe
     </div>
 
     <div class="secondsection">
         <h2>VIMA Dairies</h2>
-        <p id="secondSection">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis atque, deserunt libero eligendi eos consectetur, ad culpa exercitationem molestiae fuga unde vero debitis repudiandae ipsam sed illum aut quod natus!
-        </p>
+        <div id="infor">
+            <p id="secondSection">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis atque, deserunt libero eligendi eos consectetur, ad culpa exercitationem molestiae fuga unde vero debitis repudiandae ipsam sed illum aut quod natus!
+            </p>
+        </div>
     </div>
 
     <div class="main">
         <p id="new"></p>
         <h2>Services</h2>
         <div id="production">
-            <div id="milkOutput"></div>
-            <div id="incomeoverperiod"></div>
+            <div id="milkOutput">
+
+                <ul>
+                    <li>shed A:<input type="number" min="0" name="Shed A" id="shedA" /></li>
+                    <li>Shed B:<input type="number" min="0" name="Shed B" id="shedB" /></li>
+                    <li>Shed C: <input type="number" min="0" name="Shed C" id="shedC" /></li>
+                    <li>Shed D: <input type="number" min="0" name="Shed D" id="shedD" /></li>
+                    <li>
+                        <input type="submit" value="Submit" onclick="totalProduction()" />
+                    </li>
+                </ul>
+                <div id="milkPerShed"></div>
+
+            </div>
+            <div id="incomeoverperiod">
+                <p id="price">
+                    Current selling Price per Litre:
+                    <input type="number" min="0" name="selling_price" required="required" id="selling_price" />
+                </p>
+                <p id="amount">
+                    Total Produced Milk (litres) :
+                    <input type="number" min="0" name="time" required="required" id="time" />
+                </p>
+                <p id="days">
+                    Production period (Days) :
+                    <input type="number" min="0" name="time" required="required" id="time" />
+                </p>
+                <p id="submit"><button onclick="incomeOverTime()">Submit</button></p>
+                <div id="income"></div>
+            </div>
         </div>
 
     </div>

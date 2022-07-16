@@ -1,6 +1,49 @@
+/* Media screen rules */
+
+@media screen and (min-width:480px) {
+    body {
+        background-color: rgb(229, 178, 25);
+        margin: 0;
+    }
+    .home {
+        display: flex;
+        height: 10px;
+        background-color: rgba(218, 30, 52, 0.845);
+    }
+    #homeMenu li {
+        display: block;
+        font-size: 1em;
+        justify-content: space-between;
+        align-items: left;
+        padding-right: 20px;
+        list-style-type: none;
+        color: blue
+    }
+    .firstsection {
+        background-image: url(../images/cow.jpg);
+        transform: scalex(-1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .firstsection>p,
+    .firstsection>h1 {
+        transform: scaleX(-1);
+    }
+    div {
+        padding: 30px;
+        margin: 0;
+    }
+}
+
+
+/* Styles */
+
 div {
     border: 2px solid black;
-    /* align-items: center; */
+    align-items: center;
     padding: 30px;
 }
 
@@ -16,45 +59,50 @@ body {
 
 .home {
     display: flex;
-    height: 10%;
-    background-color: rgba(17, 3, 3, 0.845);
+    height: 02%;
+    background-color: #660000;
 }
 
 #logo {
     color: rgb(81, 229, 12);
-    padding: 40px;
     font-size: 2em;
-    height: 400px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+
+#dairies {
+    color: blue;
 }
 
 .home {
-    height: 90px;
+    height: 50px;
 }
 
-.homeMenu ul li {
+#homeMenu li {
     display: inline-block;
     font-size: 2em;
-    justify-content: space-between;
-    align-items: left;
+    justify-content: center;
+    /* align-items: right; */
     padding-right: 20px;
     list-style-type: none;
 }
 
-.homeMenu ul li :hover {
+#homeMenu li :hover {
     text-decoration: underline white;
+    transform: scaleX(-1);
 }
 
-.homeMenu ul li a {
+#homeMenu li a {
     color: white;
     text-decoration: none;
 }
 
 .firstsection {
-    background-color: #0e2a02;
     background-image: url(../images/cow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 640px;
     text-align: center;
     margin-top: 0;
 }
@@ -70,16 +118,19 @@ body {
 }
 
 .firstsection>p:hover {
-    transform: scale(1.2);
+    transform: scaleX(-1.2);
     text-decoration: underline yellow;
 }
 
 .secondsection {
     height: 500px;
-    display: flex;
+    display: block;
     background-image: url(../images/farmer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    color: red;
 }
 
 .secondsection img {
@@ -88,7 +139,7 @@ body {
 }
 
 .main {
-    display: flex;
+    display: block;
     justify-content: center;
     height: 600px;
     height: 600px;
@@ -98,16 +149,47 @@ body {
     align-items: center;
 }
 
-.production {
-    display: block;
+#production {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9acd9a;
-    height: 700px;
-    width: 25%;
+    height: 500px;
+    width: 75%;
     padding: 10px;
-    color: blue;
+    color: rgba(1, 4, 54, 0.935);
     margin: auto;
+    font-size: 1em;
+}
+
+#milkOutput {
+    justify-content: center;
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+#milkOutput ul li {
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+}
+
+#milkPerShed {
+    background-color: #ff4032;
+}
+
+#incomeoverperiod {
+    justify-content: center;
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    padding: 20px;
+}
+
+#income {
+    background-color: #ff4032;
 }
 
 footer {
@@ -122,39 +204,4 @@ footer {
 
 .foooter {
     margin: auto;
-}
-
-
-/* Media screen rules */
-
-@media screen and (min-width:480px) {
-    body {
-        background-color: rgb(229, 178, 25);
-        margin: 0;
-    }
-    .home {
-        display: flex;
-        align-items: stretc;
-        height: 150px;
-        background-color: rgba(218, 30, 52, 0.845);
-    }
-    .homeMenu ul li {
-        display: inline-flex;
-        font-size: 2em;
-        justify-content: space-between;
-        align-items: left;
-        padding-right: 20px;
-        list-style-type: none;
-    }
-    .firstsection {
-        background-image: url(../images/cow.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 300px;
-        text-align: center;
-        margin-top: 0;
-    }
-    div {
-        margin: 0;
-    }
 }
