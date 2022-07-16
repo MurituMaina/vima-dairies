@@ -14,7 +14,9 @@ The system's dependency is on a browser for access.
 
 ## Setup & Installation 
 ## Contact 
-[![Email](vincent.maina@student.moringa.com)
+Check other Projects on![assets/images/github..png][Github](https://github.com/MurituMaina)
+Check other Projects on![assets/images/github..png][Github](https://github.com/MurituMaina)
+Check other Projects on![assets/images/github..png][Github](https://github.com/MurituMaina)
 
 ## Licence Information
 The System is distributed under the MIT Licence. for more information see [License](LICENSE.txt)
