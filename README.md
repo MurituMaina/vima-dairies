@@ -29,8 +29,9 @@ The system is developed in;
 * [HTML](html.html)
 * [CSS](css.css)
 * [Javascript](javascript.js)
-## Depencies
+## Dependencies
 The system's dependency is on a browser for access.
+More dependencies to be update on later version
 
 ## Setup & Installation 
 Install Browsers Chrome     , Internet Explorer IE 11 and Safari.
