@@ -41,20 +41,21 @@
 
 /* Styles */
 
-div {
+
+/* div {
     border: 2px solid black;
     align-items: center;
     padding: 30px;
-}
+} */
 
 * {
     font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    background-color: green;
-    padding: 0;
-    margin: 0;
+    background-color: rgb(0, 117, 128);
+    padding: 10px;
+    margin: 20px;
 }
 
 .home {
@@ -141,7 +142,7 @@ body {
 .main {
     display: block;
     justify-content: center;
-    height: 600px;
+    height: 1000px;
     height: 600px;
     background-image: url(../images/cowfreshian.jpg);
     background-repeat: no-repeat;
@@ -167,7 +168,7 @@ body {
     height: 75%;
     margin: 20px;
     padding: 20px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 #milkOutput ul li {
@@ -178,18 +179,32 @@ body {
 
 #milkPerShed {
     background-color: #ff4032;
+    height: 400px;
+    font-size: 1.3em;
 }
 
 #incomeoverperiod {
-    justify-content: center;
+    justify-content: left;
     width: 50%;
     height: 75%;
     margin: 20px;
     padding: 20px;
 }
 
+#incomeoverperiod input {
+    padding: 10px;
+    font-size: 1em;
+}
+
 #income {
+    justify-content: center;
     background-color: #ff4032;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -198,10 +213,14 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
-    margin: auto;
+    margin: -20px;
     filter: blur(0.3px);
 }
 
 .foooter {
-    margin: auto;
+    margin: -20px;
+}
+
+#submit {
+    color: #660000;
 }
