@@ -29,14 +29,14 @@
     <div class="firstsection">
         <h1>Welcome to VIMA Dairies !!!</h1>
         <p>Where your resources are a priority</p>
-        THe
+
     </div>
 
     <div class="secondsection">
         <h2>VIMA Dairies</h2>
         <div id="infor">
             <p id="secondSection">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis atque, deserunt libero eligendi eos consectetur, ad culpa exercitationem molestiae fuga unde vero debitis repudiandae ipsam sed illum aut quod natus!
+
             </p>
         </div>
     </div>
@@ -46,14 +46,15 @@
         <h2>Services</h2>
         <div id="production">
             <div id="milkOutput">
-
+                <h3>Milk Production</h3>
                 <ul>
                     <li>shed A:<input type="number" min="0" name="Shed A" id="shedA" /></li>
                     <li>Shed B:<input type="number" min="0" name="Shed B" id="shedB" /></li>
-                    <li>Shed C: <input type="number" min="0" name="Shed C" id="shedC" /></li>
-                    <li>Shed D: <input type="number" min="0" name="Shed D" id="shedD" /></li>
+                    <li>Shed C:<input type="number" min="0" name="Shed C" id="shedC" /></li>
+                    <li>Shed D:<input type="number" min="0" name="Shed D" id="shedD" /></li>
                     <li>
-                        <input type="submit" value="Submit" onclick="totalProduction()" />
+                        <button type="Submit" onclick="totalProduction()" id="submit">Submit</button>
+                        <!-- <input type="submit" value="Submit" onclick="totalProduction()" /> -->
                     </li>
                 </ul>
                 <div id="milkPerShed"></div>
@@ -66,13 +67,14 @@
                 </p>
                 <p id="amount">
                     Total Produced Milk (litres) :
-                    <input type="number" min="0" name="time" required="required" id="time" />
+                    <input type="number" min="0" name="time" required="required" id="milkProduced" />
                 </p>
                 <p id="days">
                     Production period (Days) :
                     <input type="number" min="0" name="time" required="required" id="time" />
                 </p>
-                <p id="submit"><button onclick="incomeOverTime()">Submit</button></p>
+
+                <p id="submit"><button onclick="incomeOverTime()">Submiit t</button></p>
                 <div id="income"></div>
             </div>
         </div>
